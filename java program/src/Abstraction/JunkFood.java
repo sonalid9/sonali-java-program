@@ -3,6 +3,7 @@ package Abstraction;
 
 	class JunkFood extends Food
 	{
+		String name;
 		JunkFood()
 		{}
 
@@ -13,14 +14,14 @@ package Abstraction;
 			System.out.println(" my food:"+a);
 		}
 		
-		public void prepareFood() 
+		public void prepareFood(String f) 
 		{
-			System.out.println("Preaparing Junk food :");
+			System.out.println("Preaparing Junk food :"+f);
 		}
-		public void shareReceipe()
+		public void shareReceipe(String g)
 		{
 		
 
-			System.out.println("Receipe for Junk food :");
+			System.out.println("Receipe for Junk food :"+g);
 		}
 	}

@@ -4,11 +4,11 @@ public class FoodHabit {
 
           public static void main(String[] args) {
 				HealthyFood h = new HealthyFood("pizza");
-				h.prepareFood();
-				h.shareReceipe();
+				h.prepareFood("bhel");
+				h.shareReceipe("vadapav");
 				JunkFood j = new JunkFood("hjbh");
-				j.prepareFood();
-				j.shareReceipe();
+				j.prepareFood("kukure");
+				j.shareReceipe("sup");
 		
 	}
 
