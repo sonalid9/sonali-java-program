@@ -8,15 +8,19 @@ public abstract class Book {
 }
 
 
-   abstract class Test extends Book
+  class Test extends Book
 {
+	  String name;
+	  
 
 	
-	 abstract public void run();
-	 {
+	  public void run(String f)
+	  {
+		  System.out.println("my book:"+f);
+	  }
+	 
 		
-	
-	 }
+   
 	 public void move(String a)
 	 {
 		 System.out.println("my notebook:"+a);
@@ -24,15 +28,11 @@ public abstract class Book {
 }
 	class Exam extends Test
 	 {
-		@Override
-		 public void run(String d)
-		 {
-			 System.out.println("my book:"+d);
-		 }
-		 public void move(String a)
-		 {
-			 System.out.println("my notebook:"+a);
+		public void sample(String s)
+		{
+			
+			 System.out.println("my notebook:"+s);
 		}
 	 }
-	}
+
 
