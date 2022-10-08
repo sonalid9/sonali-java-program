@@ -32,6 +32,9 @@ public class RDAccount extends Hierarchical {
 		
 		RDAccount S=new RDAccount("DCC","current",60000,23456266l);
 		S.showDetails3();
+		R.showDetails1();
+		R.ShowInfo();
+		
     
    
 		

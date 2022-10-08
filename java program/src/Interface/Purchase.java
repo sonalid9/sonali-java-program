@@ -20,6 +20,13 @@ package Interface;
 		  {
 			  System.out.println("Raw_Material cloths with quantity:" +qantity);
 				 System.out.println("Raw_Material cloths of price:"+price);
+		  }
+	 
+		  public void show(String a,String b)
+		  {
+			 
+			  System.out.println("my number is:"+a);
+			  System.out.println("my number is:"+b);
 
 		  }}
 

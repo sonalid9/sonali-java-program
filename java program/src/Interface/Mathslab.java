@@ -40,6 +40,8 @@ public class Mathslab  implements SciCalcultor{
 		c.add(2, 8);
 		c.div(12,4);
 		c.multi(30, 6f);
+		c.showsin(2);
+		c.showRoot(4);
 		
 	}
 }

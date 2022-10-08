@@ -3,7 +3,17 @@ package Interface;
 interface Read
 {
 	void readding(String bookName);
+	static void Distance(int a)
+	{
+		System.out.println("\n wanted distnace:="+a);
+	}
+	default String distanceFromsite(String x)
+	{
+		System.out.println("the safev distance from  sitev ="+x);
+		return x;
+	}
 }
+
 
 class NewsPaper implements Read,Write
 {
@@ -16,13 +26,15 @@ class NewsPaper implements Read,Write
 	{
 		System.out.println("The News Peper name is "+bookName);
 	}
-	public void publishNews() 
+	public void publishNews (String s) 
 	{
-		System.out.println("publishing the News");
+		System.out.println("pupublishNewsblishing the News:"+s);
 	}
-}
+	
+	}
 
-class ComicBook extends Book implements Read
+
+class ComicBook extends NewsPaper implements Read
 {
 	public void readding(String bookName) 
 	{
