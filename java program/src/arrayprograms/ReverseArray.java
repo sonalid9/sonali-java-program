@@ -19,7 +19,7 @@ public class ReverseArray {
     }
     System.out.println("reverse  of array is:"+a.length);
     
-    for (int i=a.length-1;i>=0;i--)
+    for (int i=0;i<a.length;i--)
     {
     	System.out.println(a[i]+" ");
     }

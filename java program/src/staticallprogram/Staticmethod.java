@@ -20,5 +20,7 @@ class Static
 public static void main(String args[])
 {
 	Staticmethod a= new Staticmethod();
+
 	 
+}  
 }
