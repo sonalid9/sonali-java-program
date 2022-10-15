@@ -15,8 +15,6 @@ public class MaxNo {
 		{
 			a[i]=sc.nextInt();
 			
-			
-			
 		}
 		int max =a[0];
 		

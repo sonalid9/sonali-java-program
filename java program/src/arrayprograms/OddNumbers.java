@@ -1,5 +1,7 @@
 package arrayprograms;
 
+import java.util.Scanner;
+
 public class OddNumbers {
 
 				
@@ -28,4 +30,6 @@ public class OddNumbers {
 			        System.out.println("Average of array : "+average);
 			 
 			    }
+
 }
+

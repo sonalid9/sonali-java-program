@@ -5,9 +5,8 @@ import java.util.Arrays;
 public class Shiftinarray {
 	 public static void main(String args[])
 	  { 
-	
 		int [] a = {2,3,3,4,5};
-		int n=a.length;
+		int n=3;
 		System.out.println("Original Array :" );
 		System.out.println(Arrays.toString(a));
 

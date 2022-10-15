@@ -1,7 +1,7 @@
 package arrayprograms;
 
 public class ShiftingArray {
-    
+    //left
 	public void dorotate(int a[])
 	{
 		int i=0;
@@ -27,12 +27,14 @@ public class ShiftingArray {
 				
 			}}}}}
 	
-		
+	
 	public static void main(String[] args) {
+		
 		int a[]= { 1 ,2,3,4,5,6};
 	
 		ShiftingArray s=new ShiftingArray();
 		  s.dorotate(a);
+		  System.out.println(a);
 		 
 
 	}

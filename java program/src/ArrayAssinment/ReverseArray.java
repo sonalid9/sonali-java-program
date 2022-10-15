@@ -1,4 +1,4 @@
-package arrayprograms;
+package ArrayAssinment;
 
 import java.util.Scanner;
 
