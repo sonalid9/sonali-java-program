@@ -2,28 +2,20 @@ package Constructor;
 
 public class Channing {
 	
-	private int id;
-	private String name;
-	private String Address;
-	Channing(int id,String name,String Address)
-	{
-		id=id;
-		name=name;
-		Address=Address;
+	 int id;
+	 String name;
+	
 		
-	}
 	Channing()
 	{
-		this(1,"sonali","satara");
+		this(1,"sonali");
+		System.out.println("id="+12);
+		
 	}
 	Channing(int id,String name)
 	{
-   
-		id=id;
-		name=name;
-	}
-	public void show()
-	{
+        
+	
 		System.out.println("name:"+id);
 		System.out.println("namr:"+name);
 	}
@@ -33,8 +25,7 @@ public class Channing {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Channing c=new Channing();
-		c.show();
+	    new Channing();
 		
 		
 

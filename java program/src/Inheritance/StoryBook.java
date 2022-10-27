@@ -13,6 +13,7 @@ public class StoryBook extends Poembook {
 	super("mahabhart","sonal",500);
 		this.BookName=BookName;
 		this.BookAuthor=BookAuthor;
+		
 		this.BookPrice=BookPrice;
 	}
 
